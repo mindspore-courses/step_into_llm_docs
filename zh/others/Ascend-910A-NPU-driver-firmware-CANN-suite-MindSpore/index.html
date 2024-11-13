@@ -709,11 +709,13 @@
 <h1 id="ascendcannmindspore">Ascend物理机安装CANN和MindSpore环境指导</h1>
 <h1 id="_1">前置阅读和资源准备</h1>
 <ol>
-<li>登录昇腾芯片的堡垒机或者物理机</li>
-</ol>
-<p>登录堡垒机需要联系管理员获取相应资源</p>
-<ol>
-<li>提前下载依赖包(版本对应关系和下载地址见下文)</li>
+<li>
+<p>登录昇腾芯片的堡垒机或者物理机
+登录堡垒机需要联系管理员获取相应资源</p>
+</li>
+<li>
+<p>提前下载依赖包(版本对应关系和下载地址见下文)</p>
+</li>
 <li>Ubuntu 20.04 iso安装包</li>
 <li>CANN及其kernel</li>
 <li>Anaconda安装配套MindSpore环境</li>
@@ -843,9 +845,9 @@ pip list | grep mindspore
 <p>开机之后可以检查网卡的ip是否正确设置</p>
 <p><img alt="" src="../../../others/images/media/image12.png" /></p>
 <p>3) 远程开发答疑
-可以<a href="https://zhuanlan.zhihu.com/p/497224440">安装code-server</a>或者使用Pycharm远程开发。
-<img alt="" src="../../../others/images/media/image13.png" />
-此时本地就能远程visual code连接并开发</p>
+   可以<a href="https://zhuanlan.zhihu.com/p/497224440">安装code-server</a>或者使用Pycharm远程开发。
+   <img alt="" src="../../../others/images/media/image13.png" />
+   此时本地就能远程visual code连接并开发</p>
 <p><img alt="" src="../../../others/images/media/image14.png" /></p>
 <p>不要设置systemctl自动后台启动（会自动重启很多个后台服务），每次用的时候mobaxterm在tmux会话手动输入<code>code-server</code>本地开发即可。<strong>不推荐《版本配套表》外OS上源码编译NPU驱动和固件</strong>.</p>
 
