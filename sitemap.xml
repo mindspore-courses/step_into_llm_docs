@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/"/>
+    </url>
+    <url>
+        <loc>NoneMindNLP/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMindNLP/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/MindNLP/"/>
+    </url>
+    <url>
+        <loc>Noneothers/Ascend-910A-NPU-driver-firmware-CANN-suite-MindSpore/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneothers/Ascend-910A-NPU-driver-firmware-CANN-suite-MindSpore/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/others/Ascend-910A-NPU-driver-firmware-CANN-suite-MindSpore/"/>
+    </url>
+    <url>
+        <loc>Nonestep_into_chatgpt/BERT/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestep_into_chatgpt/BERT/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/step_into_chatgpt/BERT/"/>
+    </url>
+    <url>
+        <loc>Nonestep_into_chatgpt/Transformer/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestep_into_chatgpt/Transformer/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/step_into_chatgpt/Transformer/"/>
+    </url>
+    <url>
+        <loc>Nonestep_into_llm/ChatGLM/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestep_into_llm/ChatGLM/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/step_into_llm/ChatGLM/"/>
+    </url>
+    <url>
+        <loc>Nonezh/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonezh/MindNLP/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/MindNLP/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="NoneMindNLP/"/>
+    </url>
+    <url>
+        <loc>Nonezh/others/Ascend-910A-NPU-driver-firmware-CANN-suite-MindSpore/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/others/Ascend-910A-NPU-driver-firmware-CANN-suite-MindSpore/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Noneothers/Ascend-910A-NPU-driver-firmware-CANN-suite-MindSpore/"/>
+    </url>
+    <url>
+        <loc>Nonezh/step_into_chatgpt/BERT/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/step_into_chatgpt/BERT/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestep_into_chatgpt/BERT/"/>
+    </url>
+    <url>
+        <loc>Nonezh/step_into_chatgpt/Transformer/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/step_into_chatgpt/Transformer/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestep_into_chatgpt/Transformer/"/>
+    </url>
+    <url>
+        <loc>Nonezh/step_into_llm/ChatGLM/</loc>
+        <lastmod>2024-11-13</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="Nonezh/step_into_llm/ChatGLM/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestep_into_llm/ChatGLM/"/>
+    </url>
+</urlset>
