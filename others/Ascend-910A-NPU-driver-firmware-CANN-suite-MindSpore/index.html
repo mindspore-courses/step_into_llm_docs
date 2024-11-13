@@ -754,7 +754,7 @@ uname -r
 <div class="highlight"><pre><span></span><code>sudo apt upgrade -y &amp;&amp; apt update
 </code></pre></div>
 <p>The kernel version will be automatically upgraded, and the current kernel version is not adapted to the current kernel version upgrade. Therefore, the function of automatic upgrade kernel can be turned off.</p>
-<div class="highlight"><pre><span></span><code>lspci | grep d801 # 查看NPU有多少张
+<div class="highlight"><pre><span></span><code>lspci | grep d801 # See how many NPU there are
 sudo apt-get install -y net-tools pciutils &amp;&amp; ifconfig
 sudo apt-get install -y make dkms gcc linux-headers-$(uname -r)
 groupadd HwHiAiUser
@@ -763,7 +763,7 @@ chmod +x ./Ascend-hdk-910-npu-driver_6.0.0_linux-aarch64.run
 sudo ./Ascend-hdk-910-npu-driver_6.0.0_linux-aarch64.run --full --install-for-all
 chmod ./Ascend-hdk-910-npu-firmware_6.0.0.run
 sudo ./Ascend-hdk-910-npu-firmware_6.0.0.run --full
-reboot # 重启令驱动固件生效
+reboot # Reboot the driver firmware to take effect
 </code></pre></div>
 <p><img alt="" src="../images/media/image6.png" /> </p>
 <p><code>npu-smi info</code> report an error, according to the tutorial <a href="https://bbs.huaweicloud.com/blogs/423686">https://bbs.huaweicloud.com/blogs/423686</a>
