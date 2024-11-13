@@ -1,3 +1,21 @@
+# Generated site files
+/site
+# Generated PDFs
+/pdf
+# bak files
+/bak
+# macOS File System
+.DS_Store
+.vscode
+.obsidian
+.idea
+# any vx.json created by Vnote
+vx.json
+vx_notebook/
+vx_recycle_bin/
+# local src files
+src/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
