@@ -199,11 +199,9 @@ After turning on, you can check whether the IP of the network card is set correc
 
  ![](./images/media/image12.png) 
 
-3) Remote development is a bit troublesome, try to install Code-Server
-
-<https://zhuanlan.zhihu.com/p/497224440>
-
- ![](./images/media/image13.png) 
+3) Remote development
+Try to install [Code-Server](https://zhuanlan.zhihu.com/p/497224440), or use Pycharm remote development.
+![](./images/media/image13.png) 
 At this time, the local can be connected and developed remote Visual Code
 
  ![](./images/media/image14.png) 
