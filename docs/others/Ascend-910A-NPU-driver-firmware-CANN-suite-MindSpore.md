@@ -77,7 +77,7 @@ sudo apt upgrade -y && apt update
 The kernel version will be automatically upgraded, and the current kernel version is not adapted to the current kernel version upgrade. Therefore, the function of automatic upgrade kernel can be turned off.
 
 ```
-lspci | grep d801 # 查看NPU有多少张
+lspci | grep d801 # See how many NPU there are
 sudo apt-get install -y net-tools pciutils && ifconfig
 sudo apt-get install -y make dkms gcc linux-headers-$(uname -r)
 groupadd HwHiAiUser
@@ -86,7 +86,7 @@ chmod +x ./Ascend-hdk-910-npu-driver_6.0.0_linux-aarch64.run
 sudo ./Ascend-hdk-910-npu-driver_6.0.0_linux-aarch64.run --full --install-for-all
 chmod ./Ascend-hdk-910-npu-firmware_6.0.0.run
 sudo ./Ascend-hdk-910-npu-firmware_6.0.0.run --full
-reboot # 重启令驱动固件生效
+reboot # Reboot the driver firmware to take effect
 ```
 
  ![](./images/media/image6.png) 
