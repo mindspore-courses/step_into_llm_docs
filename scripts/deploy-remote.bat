@@ -1,1 +1,1 @@
-cd .. && mkdocs build --clean && mkdocs gh-deploy
+mkdocs build --clean && mkdocs gh-deploy

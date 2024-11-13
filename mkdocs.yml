@@ -50,12 +50,14 @@ markdown_extensions:
 nav:
   - Home: 
     - Home: index.md
-    - API usage: usage.md
+    - MindNLP: MindNLP.md
   - step_into_chatgpt: 
     - Transformer: step_into_chatgpt/Transformer.md
     - BERT: step_into_chatgpt/BERT.md
   - step_into_llm: 
     - ChatGLM: step_into_llm/ChatGLM.md
+  - others:
+    - set_env: others/Ascend-910A-NPU-driver-firmware-CANN-suite-MindSpore.md
 
 # Plugins
 plugins:
@@ -75,12 +77,14 @@ plugins:
       nav_translations:
         zh:
           - Home: 主页
-          - API usage: 用法API
+          - MindNLP: MindNLP用法
           - step_into_chatgpt: 走进ChatGPT
           - Transformer: Transformer
           - BERT: BERT
           - step_into_llm: 走进LLM
           - ChatGLM: ChatGLM
+          - others: 其他
+          - set_env: 环境配置
           
   - with-pdf:
       #author: Contributors

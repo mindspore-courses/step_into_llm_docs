@@ -1,1 +1,1 @@
-cd .. && mkdocs build  --clean && mkdocs serve
+mkdocs build  --clean && mkdocs serve  -a localhost:1001
