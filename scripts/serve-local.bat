@@ -1,0 +1,1 @@
+cd .. && mkdocs build  --clean && mkdocs serve
