@@ -1,10 +1,8 @@
 # Ascend physical machine installation Cann and MindSpore environment guidance
 
-
 # Pre -reading and resource preparation
 
 1. Log in to the fortress machine or physical machine of the Shengteng chip
-
 Log in to a fortress machine needs to contact the administrator to get the corresponding resources
 
 2. Download the dependency package in advance (see the correspondence and download address below for the version of the version)
@@ -25,6 +23,7 @@ If the CMD can Ping Fortress IP indicates that the network has been opened, you 
 according to [The network environment VPN connection guidelines for Dongguan-Tuanpububi Machine](https://docs.qq.com/doc/DRXlJSU9vdWlLd25C) after completing the network environment configuration, you can log in to the fortress machine.
 
 # IBMC installation operating system and NPU driver firmware
+
 The basis is `npu-smi` whether the command can be executed.
 ![](./images/media/image1.png) 
 
@@ -200,10 +199,10 @@ After turning on, you can check whether the IP of the network card is set correc
  ![](./images/media/image12.png) 
 
 3) Remote development
-Try to install [Code-Server](https://zhuanlan.zhihu.com/p/497224440), or use Pycharm remote development.
-![](./images/media/image13.png) 
-At this time, the local can be connected and developed remote Visual Code
-
- ![](./images/media/image14.png) 
+   Try to install [Code-Server](https://zhuanlan.zhihu.com/p/497224440), or use Pycharm remote development.
+   ![](./images/media/image13.png) 
+   At this time, the local can be connected and developed remote Visual Code
+   
+   ![](./images/media/image14.png) 
 
 Do not set the SystemCTL automatic background startup (it will automatically restart many background services), every time Mobaxterm is used in TMUX, manually enter `code-server` local development.**Not recommended "Version Supporting Table" Os Outside OS Source Code Compile NPU Driver and firmware**.

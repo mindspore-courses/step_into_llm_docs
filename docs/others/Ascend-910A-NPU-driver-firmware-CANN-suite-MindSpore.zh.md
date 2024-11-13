@@ -1,10 +1,8 @@
 # Ascend物理机安装CANN和MindSpore环境指导
 
-
 # 前置阅读和资源准备
 
 1. 登录昇腾芯片的堡垒机或者物理机
-
 登录堡垒机需要联系管理员获取相应资源
 
 2. 提前下载依赖包(版本对应关系和下载地址见下文)
@@ -25,6 +23,7 @@
 根据[东莞-团泊洼堡垒机的网络环境VPN连接指引](https://docs.qq.com/doc/DRXlJSU9vdWlLd25C)完成网络环境配置,即可登录堡垒机。
 
 # iBMC安装操作系统和NPU驱动固件
+
 检查依据是`npu-smi`命令能否执行。
 ![](./images/media/image1.png)
 
@@ -202,9 +201,9 @@ pip list | grep mindspore
 ![](./images/media/image12.png)
 
 3) 远程开发答疑
-可以[安装code-server](https://zhuanlan.zhihu.com/p/497224440)或者使用Pycharm远程开发。
-![](./images/media/image13.png)
-此时本地就能远程visual code连接并开发
+   可以[安装code-server](https://zhuanlan.zhihu.com/p/497224440)或者使用Pycharm远程开发。
+   ![](./images/media/image13.png)
+   此时本地就能远程visual code连接并开发
 
 ![](./images/media/image14.png)
 
