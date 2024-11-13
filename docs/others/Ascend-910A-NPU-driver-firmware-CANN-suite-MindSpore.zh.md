@@ -201,10 +201,8 @@ pip list | grep mindspore
 
 ![](./images/media/image12.png)
 
-3) 远程开发有点麻烦，尝试安装code-server
-
-<https://zhuanlan.zhihu.com/p/497224440>
-
+3) 远程开发答疑
+可以[安装code-server](https://zhuanlan.zhihu.com/p/497224440)或者使用Pycharm远程开发。
 ![](./images/media/image13.png)
 此时本地就能远程visual code连接并开发
 
